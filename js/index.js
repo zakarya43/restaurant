@@ -113,7 +113,6 @@ let ptInputs = document.querySelectorAll(".p-t");
 let ptvalMsg = document.querySelector(".pt-val-msg");
 let ptTxt = document.querySelector(".pick-time p")
 
-console.log(ptInputs);
 
 ptInputs.forEach((e)=>{
     e.addEventListener("input", ()=>{
